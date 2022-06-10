@@ -24,10 +24,6 @@ workflows:
       - name: Get Flutter packages
         script: |
           cd . && flutter packages pub get
-      - name: Flutter unit tests
-        script: |
-          cd . && flutter test
-        ignore_failure: true
       - name: Install pods
         script: |
           find . -name "Podfile" -execdir pod install \;
