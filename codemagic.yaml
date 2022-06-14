@@ -8,12 +8,10 @@ workflows:
         BUNDLE_ID: "molfar.lab.defaultCalc"
         APP_STORE_CONNECT_ISSUER_ID: "3ec5bc67-9f63-4bd1-b8b0-80e3aa184f64"
         APP_STORE_CONNECT_KEY_IDENTIFIER: "P6U9UPACAK"
-        APP_STORE_CONNECT_PRIVATE_KEY: Encrypted("-----BEGIN PRIVATE KEY-----
-                                        MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQg5OSXy47IOU5Op1A0
+        APP_STORE_CONNECT_PRIVATE_KEY: "MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQg5OSXy47IOU5Op1A0
                                         Y4V1irnY/DgH8VGQfCqJKQtR1jCgCgYIKoZIzj0DAQehRANCAATdwPYoInqI42hI
                                         6A+4F/2Vq4EKV6G+0TAM+k4luSbp+Qucbbg8+ROmtZU445LVA9pkEibCqQdE6ZY0
-                                        y2Or/2Lm
-                                        -----END PRIVATE KEY-----")
+                                        y2Or/2Lm"
       xcode: latest
       cocoapods: default
     triggering:
