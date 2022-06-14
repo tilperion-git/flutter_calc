@@ -3,6 +3,7 @@ workflows:
     name: ios_workflow
     environment:
       groups:
+         - ios_group
          - ios_config
       vars:
         XCODE_WORKSPACE: "YOUR_WORKSPACE_NAME.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
