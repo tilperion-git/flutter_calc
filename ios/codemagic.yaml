@@ -6,8 +6,8 @@ workflows:
          - ios_group
          - ios_config
       vars:
-        XCODE_WORKSPACE: "./ios/Runner.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
-        XCODE_SCHEME: "./ios/Runner" # PUT THE NAME OF YOUR SCHEME HERE
+        XCODE_WORKSPACE: "Runner.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
+        XCODE_SCHEME: "Runner" # PUT THE NAME OF YOUR SCHEME HERE
         BUNDLE_ID: "molfar.lab.defaultCalc"
       xcode: latest
       cocoapods: default
