@@ -6,11 +6,9 @@ workflows:
          - ios_group
          - ios_config
       vars:
-        XCODE_WORKSPACE: "ios/Runner.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
-        XCODE_SCHEME: "ios/Runner" # PUT THE NAME OF YOUR SCHEME HERE
+        XCODE_WORKSPACE: "Runner.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
+        XCODE_SCHEME: "Runner" # PUT THE NAME OF YOUR SCHEME HERE
         BUNDLE_ID: "molfar.lab.defaultCalc"
-        APP_STORE_CONNECT_ISSUER_ID: "3ec5bc67-9f63-4bd1-b8b0-80e3aa184f64"
-        APP_STORE_CONNECT_KEY_IDENTIFIER: "P6U9UPACAK"
       xcode: latest
       cocoapods: default
     triggering:
